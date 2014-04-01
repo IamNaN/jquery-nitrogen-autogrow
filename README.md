@@ -25,7 +25,7 @@ Checkout this [jsFiddle](http://jsfiddle.net/dgerton/RjLJH/) for the demo.
 
 ### Tips:
 * Nitrogen will accept any CSS selector.
-* The method used above only attaches Nitrogen to elements that matched the selector at the time the DOM is loaded. If you additional elements are added to the DOM afterwards, the nitrogen method needs to be called on them.
+* The method used above only attaches Nitrogen to elements that matched the selector at the time the DOM is loaded. If additional elements are added after the DOM is loaded, the `nitrogen()` method needs to be called on the elements you want to grow.
 * Use the max-height and min-height CSS properties in your class to set the limits.
 
 ### Coming:
