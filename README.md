@@ -1,5 +1,6 @@
+![](https://raw.githubusercontent.com/IamNaN/jquery-nitrogen-autogrow/master/docs/images/leaf-icon.png) 
 # Nitrogen
-## jQuery plug-in for autogrowing text areas
+## a jQuery plug-in for autogrowing text areas
 
 Textareas are rather static HTML controls. Nitrogen allows the textarea to expand as content is added to it, or contract as content is removed.
 
