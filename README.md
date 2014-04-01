@@ -8,15 +8,18 @@ There are other plug-ins out there, but Nitrogen honors any CSS styling you appl
 #### Usage:
 Include either nitrogen.js or nitrogen.js.coffee in your project. After the DOM is loaded, attach nitrogen to whatever elements you need to autogrow:
 
-    # CoffeeScript
-    jQuery ->
-        $('.your-css-selector').nitrogen()
+```coffee
+  # CoffeeScript
+  jQuery ->
+    $('.your-css-selector').nitrogen()
+```
 ...or...
-    
-    // Javascript
-    jQuery(function() {
-      return $('.your-css-selector').nitrogen();
-    });
+```javascript
+  // Javascript
+  jQuery(function() {
+    return $('.your-css-selector').nitrogen();
+  });
+```
 
 Done.
 
@@ -25,7 +28,7 @@ Checkout this [jsFiddle](http://jsfiddle.net/dgerton/RjLJH/) for the demo.
 
 ### Tips:
 * Nitrogen will accept any CSS selector.
-* The method used above only attaches Nitrogen to elements that matched the selector at the time the DOM is loaded. If additional elements are added after the DOM is loaded, the `nitrogen()` method needs to be called on the elements you want to grow.
+* The method used above only attaches Nitrogen to elements that matched the selector at the time the DOM is loaded. If additional elements are added after the DOM is loaded, the `nitrogen()` method needs to be called on the new elements you want to grow.
 * Use the max-height and min-height CSS properties in your class to set the limits.
 
 ### Coming:
